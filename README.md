@@ -62,7 +62,7 @@ Below are the results of detecting objects after SVM is trained:
 ![alt text][image6]
 
 
-#### 4. Reading respective pick-list for each world scene and constructing the messages that would comprise a valid Pick/Place request buy outputting them to .yaml file format for each.
+#### 4. Reading respective pick-list for each world scene and constructing the messages that would comprise a valid Pick/Place request by outputting them to .yaml file format for each.
 **World 1:**
 
 100% of objects from pick-list are detected as shown below:
