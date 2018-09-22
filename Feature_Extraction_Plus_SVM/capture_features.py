@@ -22,19 +22,16 @@ def get_normals(cloud):
 
 if __name__ == '__main__':
     rospy.init_node('capture_node')
+
     models = [ \
         'biscuits',
         'soap',
-        'soap2']
-    # models = [ \
-    #     'biscuits',
-    #     'soap',
-    #     'soap2',
-    #     'book',
-    #     'glue',
-    #     'sticky_notes',
-    #     'snacks',
-    #     'eraser']
+        'soap2',
+        'book',
+        'glue',
+        'sticky_notes',
+        'snacks',
+        'eraser']
 
     # Disable gravity and delete the ground plane
     initial_setup()
@@ -67,5 +64,5 @@ if __name__ == '__main__':
 
         delete_model()
 
-    pickle.dump(labeled_features, open('world1_training_set.sav', 'wb'))
+    pickle.dump(labeled_features, open('training_set.sav', 'wb'))
 
